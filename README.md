@@ -1,4 +1,3 @@
-# NETPacker
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="NETPacker_0"></a>NETPacker</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="3">Hello I offer a small packer .net that I did a little different because it has a different anti invoke, and it is proposed for educational purposes, it has no anti dump.</p>
 <h1 class="code-line" data-line-start=5 data-line-end=6 ><a id="How_To_Use_5"></a>How To Use</h1>
