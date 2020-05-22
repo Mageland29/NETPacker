@@ -9,6 +9,6 @@
 <pre><code class="has-line-data" data-line-start="13" data-line-end="15">Sample in CMD :  Exe_Patch_Of_NETPacker Exe_Patch_To_EXE
 </code></pre>
 <p class="has-line-data" data-line-start="15" data-line-end="17"><img src="https://zupimages.net/up/20/21/d2ha.png" alt="Picture Sample"><br>
-<p><img src="http://fotoforum.fr/photos/2020/05/22.5.gif" alt="sample how to use"></p>
+<p><img src="https://sendeyo.com/up/d/376bdb6664" alt="sample how to use"></p>
 <h2 class="code-line" data-line-start=18 data-line-end=20 ><a id="License_18"></a>License</h2>
 <p class="has-line-data" data-line-start="21" data-line-end="22">MIT</p>
