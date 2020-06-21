@@ -1,27 +1,31 @@
 ﻿using System;
-using static Context;
-using static Logger;
+using static NETPacker.Context;
+using static NETPacker.Logger;
 
 namespace NETPacker
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        static void Main( string[] args )
         {
-            if (args.Length == 0)
+            switch ( args.Length )
             {
-                Welcome();
-                Write($"Please drag and drop your file\n\n", TypeMessage.Debug);
-                LoadModule(Console.ReadLine());
-                PackerPhase();
-                SaveModule();
-            }
-            else if (args.Length == 1)
-            {
-                Welcome();
-                LoadModule(args[0]);
-                PackerPhase();
-                SaveModule();
+                case 0:
+                    Welcome();
+                    Write( $"Please drag and drop your file\n\n", TypeMessage.Debug );
+                    LoadModule( Console.ReadLine() );
+                    PackerPhase();
+                    SaveModule();
+                    break;
+                case 1:
+                    Welcome();
+                    LoadModule( args[0] );
+                    PackerPhase();
+                    SaveModule();
+                    break;
+                default:
+                    Write( $"Too many arguments, only one argument allowed", TypeMessage.Error );
+                    break;
             }
         }
     }
